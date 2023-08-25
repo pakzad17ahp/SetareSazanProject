@@ -48,6 +48,7 @@ namespace SetareSazanProject.Forms
                 if (login.LoginCheck(UserNameTextBox.Text, PasswordTextBox.Text) == false)
                 {
                     MessageBox.Show("نام کاربری یا رمز عبور به اشتباه واردشده است");
+                    UserNameTextBox.Select();
                 }
                 else
                 {
